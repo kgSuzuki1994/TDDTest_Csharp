@@ -54,7 +54,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.label1.Location = new System.Drawing.Point(115, 76);
+            this.label1.Location = new System.Drawing.Point(117, 68);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(16, 16);
             this.label1.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.label2.Location = new System.Drawing.Point(258, 76);
+            this.label2.Location = new System.Drawing.Point(255, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(16, 16);
             this.label2.TabIndex = 3;
@@ -74,7 +74,7 @@
             // 
             this.ResultLabel.AutoSize = true;
             this.ResultLabel.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.ResultLabel.Location = new System.Drawing.Point(306, 76);
+            this.ResultLabel.Location = new System.Drawing.Point(299, 69);
             this.ResultLabel.Name = "ResultLabel";
             this.ResultLabel.Size = new System.Drawing.Size(38, 16);
             this.ResultLabel.TabIndex = 4;
