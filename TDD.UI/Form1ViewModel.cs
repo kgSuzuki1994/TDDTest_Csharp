@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace TDD.UI
 {
-    class Form1ViewModel
+    public class Form1ViewModel
     {
+        //private System.Windows.Forms.TextBox ATextBox;
+        //private System.Windows.Forms.TextBox BTextBox;
+        //private System.Windows.Forms.Label ResultLabel;
+        //private System.Windows.Forms.Button CalculationButton;
+
+        public string ATextBoxText { get; set; }
+        public string BTextBoxText { get; set; }
+        public string ResultLabelText { get; set; }
+
+
     }
 }
