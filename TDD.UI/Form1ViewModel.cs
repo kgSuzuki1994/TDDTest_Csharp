@@ -17,9 +17,12 @@ namespace TDD.UI
         public string BTextBoxText { get; set; } = string.Empty;
         public string ResultLabelText { get; set; } = string.Empty;
 
-        public void Calculation()
+        public void CalculationAction()
         {
-            throw new NotImplementedException();
+            int a = Convert.ToInt32(ATextBoxText);
+            int b = Convert.ToInt32(BTextBoxText);
+
+            ResultLabelText = Calculation.Sum(a, b).ToString();
         }
     }
 }

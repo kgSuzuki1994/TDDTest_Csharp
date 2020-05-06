@@ -17,7 +17,7 @@ namespace TDDTest.Tests
 
             viewModel.ATextBoxText = "2";
             viewModel.BTextBoxText = "5";
-            viewModel.Calculation();
+            viewModel.CalculationAction();
             Assert.AreEqual("7", viewModel.ResultLabelText);
         }
     }
