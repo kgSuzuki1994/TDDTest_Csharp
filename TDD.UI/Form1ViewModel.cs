@@ -17,6 +17,9 @@ namespace TDD.UI
         public string BTextBoxText { get; set; } = string.Empty;
         public string ResultLabelText { get; set; } = string.Empty;
 
-
+        public void Calculation()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
