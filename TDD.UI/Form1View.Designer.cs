@@ -1,6 +1,6 @@
 ﻿namespace TDD.UI
 {
-    partial class Form1
+    partial class Form1View
     {
         /// <summary>
         /// 必要なデザイナー変数です。
