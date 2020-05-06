@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace TDD.UI
 {
-    public class DB : IDB
+    public interface IDB
     {
-        public int GetDBValue()
-        {
-            // 実際はDBに接続
-            return 200;
-        }
+        int GetDBValue();
     }
 }
