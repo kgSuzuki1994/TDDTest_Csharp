@@ -16,6 +16,10 @@ namespace TDD.UI
         public Form1View()
         {
             InitializeComponent();
+
+            ATextBox.DataBindings.Add("Text", _viewModel, "ATExtBoxText");
+            BTextBox.DataBindings.Add("Text", _viewModel, "BTExtBoxText");
+            ResultLabel.DataBindings.Add("Text", _viewModel, "ResultLabelText");
         }
 
         private void CaluculationButton_Click(object sender, EventArgs e)
